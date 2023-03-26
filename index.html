@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <style>
+    body {color: #FFF; background-color: #000; font-family: 'Open Sans', sans-serif;}
+    td {border-top: 1px solid #444 ; padding: 0px; width: 60px; height: 30px; text-align: center}
+    .open {border-right: 1px solid #AAA}
+    .highlighted {background-color: #222}
+    </style>
+  </head>
+  <body style="">
+    <div id="fretboard"></div>
+    <div>
+      <select name="root" id="root">
+        <option value="0">A</option>
+        <option value="1">A#</option>
+        <option value="2">B</option>
+        <option value="3" selected="selected">C</option>
+        <option value="4">C#</option>
+        <option value="5">D</option>
+        <option value="6">D#</option>
+        <option value="7">E</option>
+        <option value="8">F</option>
+        <option value="9">F#</option>
+        <option value="10">G</option>
+        <option value="11">G#</option>
+      </select>
+      <select name="subset" id="subset">
+        <option value="">--Please choose an option--</option>
+        <option value="major-scale">Major Scale</option>
+        <option value="minor-scale">Major Scale</option>
+        <option value="major-pentatonic-scale">Major Pentatonic Scale</option>
+        <option value="minor-pentatonic-scale">Minor Pentatonic Scale</option>
+        <option value="ionian-mode">Ionian Mode</option>
+        <option value="dorian-mode">Dorian Mode</option>
+        <option value="phrygian-mode">Phrygian Mode</option>
+        <option value="lydian-mode">Lydian Mode</option>
+        <option value="mixolydian-mode">Mixolydian Mode</option>
+        <option value="aeolian-mode">Aeolian Mode</option>
+        <option value="locrian-mode">Locrian Mode</option>
+        <option value="phrygian-dominant-scale">Phygian Dominant Scale</option>
+        <option value="harmonic-minor-scale">Harmonic Minor Scale</option>
+        <option value="major-chord">Major Chord</option>
+        <option value="minor-chord">Minor Chord</option>
+        <option value="diminished-chord">Diminished Chord</option>
+        <option value="major-7th-chord">Major 7th Chord</option>
+        <option value="minor-7th-chord">Minor 7th Chord</option>
+        <option value="dominant-7th-chord">Dominant 7th Chord</option>
+        <option value="sus2-chord">Sus2 Chord</option>
+        <option value="sus4-chord">Sus4 Chord</option>
+        <option value="augmented-chord">Augmented Chord</option>
+        <option value="major-9th-chord">Major 9th Chord</option>
+        <option value="minor-9th-chord">Minor 9th Chord</option>
+        <option value="dominant-9th-chord">Dominant 9th Chord</option>
+      </select>
+    </div>
+  </body>
+</html>
